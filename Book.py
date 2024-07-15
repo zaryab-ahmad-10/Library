@@ -8,7 +8,3 @@ class Book:
 
     def __str__(self):
         return f"Book: {self.title}, Author: {self.author.name}"
-
-
-
-
