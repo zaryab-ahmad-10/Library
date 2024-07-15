@@ -37,6 +37,7 @@ class Library:
     def find_books_by_title(self, title):
         return [book for book in self.books if book.title == title]
 
+
     def __str__(self):
         return f"Books: {[book.title for book in self.books]}, Authors: {[author.name for author in self.authors]}"
 
